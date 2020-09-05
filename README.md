@@ -3,7 +3,6 @@ This can be used to find the device information.
 
 ### Usage
 
-##### Full cap
 ```TypeScript
 detectDeviceServe.device(); //To get device type.
 detectDeviceServe.getFingerPrint(); //To get device full information.
