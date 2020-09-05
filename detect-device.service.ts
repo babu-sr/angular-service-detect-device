@@ -22,7 +22,7 @@ export class DetectDeviceService {
 		isTablet: false,
 		isDesktop: false
 	});
-	devicePlatforms = [
+	private devicePlatforms = [
 		{ name: 'Windows Phone', value: 'Windows Phone', version: 'OS' },
 		{ name: 'Windows', value: 'Win', version: 'NT' },
 		{ name: 'Linux', value: 'Linux', version: 'rv' },
@@ -34,7 +34,7 @@ export class DetectDeviceService {
 		{ name: 'BlackBerry', value: 'BlackBerry', version: '/' },
 		{ name: 'Palm', value: 'Palm', version: 'PalmOS' }
 	];
-	browserList = [
+	private browserList = [
 		{ searchKey: 'Firefox/', value: 'Mozilla Firefox' },
 		{ searchKey: 'Safari/', value: 'Safari' },
 		{ searchKey: 'Chrome/', value: 'Google Chrome' },
